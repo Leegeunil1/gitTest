@@ -22,7 +22,7 @@ public class HomeController {
 	public String home( Model model) {
 		
 		model.addAttribute("msg","hello GIT");
-		return "Home";
+		return "home";
 	}
 	
 }
